@@ -1,0 +1,57 @@
+﻿<Window x:Class="winformsExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:winformsExam"
+        mc:Ignorable="d"
+        Title="Sapper" Height="694" Width="700">
+    <Grid>
+        <Canvas>
+            <Grid x:Name="gridPole" Height="600" Canvas.Left="50" Canvas.Top="39" Width="600">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Button x:Name="buttonRestart" Content="Restart" Height="29" Canvas.Left="320" Canvas.Top="10" Width="60" HorizontalAlignment="Left" VerticalAlignment="Center" Click="buttonRestart_Click">
+                <Button.ContextMenu>
+                    <ContextMenu/>
+                </Button.ContextMenu>
+            </Button>
+            <ComboBox x:Name="comboBoxDifficulty" Height="29" Canvas.Left="564" Canvas.Top="10" Width="86" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="comboBoxDifficulty_SelectionChanged"/>
+        </Canvas>
+    </Grid>
+</Window>
